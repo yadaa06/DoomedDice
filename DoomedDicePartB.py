@@ -43,7 +43,6 @@ def undoom_dice(die_A, die_B):
     return "The program couldn't find a die"
 
 
-
 original_die_A = [1, 2, 3, 4, 5, 6]
 original_die_B = [1, 2, 3, 4, 5, 6]
 

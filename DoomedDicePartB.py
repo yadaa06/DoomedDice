@@ -18,11 +18,11 @@ def undoom_dice(die_A, die_B):
     #Original distribution of the two 6 sided die
     original_distribution = calculate_distribution(die_A, die_B)
 
-    #List that holds all the possible combinationsn of 4 numbers between 2 and 7(inclusive) with no repeats
+    #List that holds all the possible combinations of 4 numbers between 2 and 7(inclusive) with no repeats
     new_die_b_possible = list(combinations(range(2, 8), 4))
 
-    #List that holds all the possible combinations of 4 numbers between 1 and 4(inclusive) with repeats
-    new_die_a_possible = list(combinations_with_replacement(range(1, 5), 4))
+    #List that holds all the possible combinations of 4 numbers between 2 and 3(inclusive) with repeats
+    new_die_a_possible = list(combinations_with_replacement(range(2, 4), 4))
 
     #Exhaustive search
     for combination_b in new_die_b_possible:

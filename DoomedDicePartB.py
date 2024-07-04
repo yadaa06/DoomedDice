@@ -1,5 +1,4 @@
-from itertools import combinations
-from itertools import combinations_with_replacement
+from itertools import combinations, combinations_with_replacement
 
 def calculate_distribution(die_A, die_B):
     #Creates a dictionary with all possible sums of the dice
